@@ -56,12 +56,13 @@ int initialCalc(const vector<string>& totalGrid) {
 int main() {
 
     vector<string> totalGrid = {
-        "3+2*2v",
-        " ^   v",
-        "1-5*3"
+        "1+v2*3",
+        " ^ 4+1",
+        "5-2*2"
     };
 
     cout << initialCalc(totalGrid) << endl;
 
     return 0;
+
 }
